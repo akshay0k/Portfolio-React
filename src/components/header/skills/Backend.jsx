@@ -6,8 +6,8 @@ const Backend = () => {
     <div className="skills__content">
     <h3 className="skills__title">Backend Developer</h3>
 
-    <div className="skills___box">
-        <div className="skills___group">
+    <div className="skills__box">
+        <div className="skills__group">
 
         <div className="skills__data">
                 <i class='bx bx-badge-check' ></i>

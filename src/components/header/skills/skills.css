@@ -15,7 +15,7 @@
     text-align: center;
     margin-bottom: var(--mb-1-5);
 }
-.skills___box{
+.skills__box{
     display: flex;
     justify-content: center;
     column-gap: 2.5rem;
@@ -67,7 +67,7 @@
   
   /* For small devices */
   @media screen and (max-width: 350px) {
-    .skills___box{
+    .skills__box{
         column-gap: 1.25rem;
     }
 
