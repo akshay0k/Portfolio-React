@@ -88,14 +88,14 @@ const Services = () => {
               Ui/Ux <br /> Designer
             </h3>
           </div>
-          <span onClick={() => toggleTab(1)} className="services__button">
+          <span onClick={() => toggleTab(2)} className="services__button">
             View More{""}
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
           <div
             className={
-              toggleState === 1
+              toggleState === 2
                 ? "services__modal active-modal"
                 : "services__modal"
             }
@@ -157,14 +157,14 @@ const Services = () => {
               Visual <br /> Designer
             </h3>
           </div>
-          <span onClick={() => toggleTab(1)} className="services__button">
+          <span onClick={() => toggleTab(3)} className="services__button">
             View More{""}
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
           <div
             className={
-              toggleState === 1
+              toggleState === 3
                 ? "services__modal active-modal"
                 : "services__modal"
             }
